@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #19e64d;
+  --color-background-light: #f6f8f6;
+  --color-background-dark: #112115;
+  --font-family-display: "Plus Jakarta Sans", sans-serif;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  min-height: max(884px, 100dvh);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
