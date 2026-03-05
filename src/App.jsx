@@ -23,9 +23,9 @@ function App() {
 
       <main>
         {/* Hero Section */}
-        <section className="relative h-150 flex items-center justify-center overflow-hidden">
+        <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <div className="absolute inset-0 bg-linear-to-b from-background-dark/60 via-background-dark/40 to-background-dark/80 z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-background-dark/60 via-background-dark/40 to-background-dark/80 z-10"></div>
             <img
               alt="Scenic mountain landscape at sunset"
               className="w-full h-full object-cover"
@@ -67,7 +67,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Attraction 1 */}
             <div className="group cursor-pointer">
-              <div className="relative aspect-4/5 rounded-2xl overflow-hidden mb-4">
+              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
                 <img
                   alt="The Historic Pier"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -82,7 +82,7 @@ function App() {
             </div>
             {/* Attraction 2 */}
             <div className="group cursor-pointer">
-              <div className="relative aspect-4/5 rounded-2xl overflow-hidden mb-4">
+              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
                 <img
                   alt="Botanical Gardens"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -97,7 +97,7 @@ function App() {
             </div>
             {/* Attraction 3 */}
             <div className="group cursor-pointer">
-              <div className="relative aspect-4/5 rounded-2xl overflow-hidden mb-4">
+              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
                 <img
                   alt="Mountain Trail"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -112,7 +112,7 @@ function App() {
             </div>
             {/* Attraction 4 */}
             <div className="group cursor-pointer">
-              <div className="relative aspect-4/5 rounded-2xl overflow-hidden mb-4">
+              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
                 <img
                   alt="Sunset Bay"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"

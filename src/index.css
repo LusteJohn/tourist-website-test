@@ -1,13 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --color-primary: #19e64d;
-  --color-background-light: #f6f8f6;
-  --color-background-dark: #112115;
-  --font-family-display: "Plus Jakarta Sans", sans-serif;
-  --radius-lg: 0.5rem;
-  --radius-xl: 0.75rem;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
